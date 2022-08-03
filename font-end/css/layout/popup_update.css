@@ -1,0 +1,32 @@
+.input__note{
+    flex: 1;
+    margin-left: 8px;
+}
+
+.combobox__option-search{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+.input.input__update{
+    background-color: transparent;
+    border-radius: 0;
+}
+
+.input.input__update:hover{
+    background-color: transparent;
+}
+
+.combobox__option-list.combobox__option-update{
+    padding-top: 32px;
+}
+
+.icon-search--position{
+    right: 8px;
+}
+
+.combobox__icon-check.icon-check--position{
+    left: calc(100% - 24px);
+}

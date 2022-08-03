@@ -1,0 +1,119 @@
+
+.filter__top{
+    margin-top: 8px;
+    padding: 0 16px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.filter__text{
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #586074;
+}
+
+.filter__icon{
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.filter__icon:hover{
+    background-color: #bbbbbb;
+}
+
+.filter__icon::before{
+    content: "";
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    background: transparent url(../../assets/icon/icon_collection.svg) no-repeat -32px -32px;
+}
+
+.filter__bottom{
+    margin-top: 8px;
+    padding: 0 16px;
+}
+
+.filter__bottom-label{
+    min-height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.icon-search:hover{
+    background-color: #bbbbbb;
+}
+
+
+.icon-search{
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.icon-search::before{
+    content: "";
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    background: transparent url(../../assets/icon/icon_collection.svg) no-repeat -32px 0px;
+}
+
+.filter__list{
+    list-style: none;
+}
+
+.filter__item{
+    height: 32px;
+
+    display: flex;
+    align-items: center;
+}
+
+.filter_input{
+    height: 16px;
+    width: 16px;
+    background-color: #fff;
+    border: 1px solid #7c869c;
+    border-radius: 4px;
+}
+
+.filter__item-text{
+    vertical-align: middle;
+    margin-left: 8px;
+    width: 193px;
+}
+
+.siderbar-left__postion{
+    position: absolute;
+    width: 14px;
+    height: 40px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px 0 0 4px;
+    top: 50%;
+    right: -14px;
+    box-shadow: 1px 0 4px #00000029;
+    border-right: 1px solid #f0f2f4;
+    z-index: 20;
+    cursor: pointer;
+}
+
+.siderbar-left__postion:hover{
+    width: 24px;
+    right: -24px;
+}

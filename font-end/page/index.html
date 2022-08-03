@@ -1,0 +1,1624 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="header__info">
+                <div class="header__img">
+                    <div class="header__toggle"></div>
+                    <div class="header__logo"></div>
+                </div>
+                <div class="header__search">
+                    <div class="input--with-icon ">
+                        <div class="input__icon icon-search">
+                        </div>
+                        <input type="text" class="input input-search" placeholder="Nhập Thông Tin" />
+                    </div>
+                </div>
+                <div class="header__Personal-info">
+                    <div class="header__icon header__icon-facebook"></div>
+                    <div class="header__icon header__icon-search"></div>
+                    <div class="header__icon header__icon-calendar"></div>
+                    <div class="header__icon header__icon-notify"></div>
+                    <div class="header__icon header__icon-setting"></div>
+                    <div class="header__icon header__icon-help"></div>
+                    <div class="header__icon header__avatar"></div>
+                </div>
+            </div>
+            <div class="header__nav">
+                <ul class="header__nav-list">
+                    <li class="header__nav-item">
+                        <div class="header__nav-item-icon"
+                            style="background: transparent url(https://crmplatform.misacdn.net/app/assets/Images/icon/icon_collection_v2.svg) no-repeat 0px -272px;">
+                        </div>
+                        <p class="header__nav-item-text">
+                            Bàn Làm Việc
+                        </p>
+                    </li>
+                    <li class="header__nav-item">
+                        <div class="header__nav-item-icon"
+                            style="background: url(https://crmplatform.misacdn.net/app/assets/Images/icon/icon_collection_v2.svg) no-repeat 0 -48px;">
+
+                        </div>
+                        <p class="header__nav-item-text">
+                            Tiềm Năng
+                        </p>
+                    </li>
+                    <li class="header__nav-item">
+                        <div class="header__nav-item-icon"
+                            style="background: url(https://crmplatform.misacdn.net/app/assets/Images/icon/icon_collection_v2.svg) no-repeat -16px -272px;">
+
+                        </div>
+                        <p class="header__nav-item-text">
+                            Chào Hàng
+                        </p>
+                    </li>
+                    <li class="header__nav-item">
+                        <div class="header__nav-item-icon"
+                            style="background: url(https://crmplatform.misacdn.net/app/assets/Images/icon/icon_collection_v2.svg) no-repeat -128px -48px;">
+
+                        </div>
+                        <p class="header__nav-item-text">
+                            Liên Hệ
+                        </p>
+                    </li>
+                    <li class="header__nav-item">
+                        <div class="header__nav-item-icon"
+                            style="background: url(https://crmplatform.misacdn.net/app/assets/Images/icon/icon_collection_v2.svg) no-repeat repeat -112px -48px;">
+
+                        </div>
+                        <p class="header__nav-item-text">
+                            Khách hàng
+                        </p>
+                    </li>
+                    <li class="header__nav-item">
+                        <div class="header__nav-item-icon"
+                            style="background: url(https://crmplatform.misacdn.net/app/assets/Images/icon/icon_collection_v2.svg) no-repeat repeat -80px -48px;">
+
+                        </div>
+                        <p class="header__nav-item-text">
+                            Cơ hội
+                        </p>
+                    </li>
+                    <li class="header__nav-item">
+                        <div class="header__nav-item-icon"
+                            style="background: url(https://crmplatform.misacdn.net/app/assets/Images/icon/icon_collection_v2.svg) no-repeat repeat -62px -48px;">
+
+                        </div>
+                        <p class="header__nav-item-text">
+                            Báo Giá
+                        </p>
+                    </li>
+                    <li class="header__nav-item">
+                        <div class="header__nav-item-icon"
+                            style="background: url(https://crmplatform.misacdn.net/app/assets/Images/icon/icon_collection_v2.svg) no-repeat repeat -144px -48px;">
+
+                        </div>
+                        <p class="header__nav-item-text">
+                            Đơn Hàng
+                        </p>
+                    </li>
+                    <li class="header__nav-item">
+                        <div class="header__nav-item-icon"
+                            style="background: url(https://crmplatform.misacdn.net/app/assets/Images/icon/icon_collection_v2.svg) no-repeat repeat -352px -208px;">
+
+                        </div>
+                        <p class="header__nav-item-text">
+                            Hóa đơn
+                        </p>
+                    </li>
+                    <li class="header__nav-item">
+                        <div class="header__nav-item-icon"
+                            style="background: url(https://crmplatform.misacdn.net/app/assets/Images/icon/icon_collection_v2.svg) no-repeat repeat -64px -304px;">
+
+                        </div>
+                        <p class="header__nav-item-text">
+                            Ao cơ hội
+                        </p>
+                    </li>
+                    <li class="header__nav-item">
+                        <div class="header__nav-item-icon"
+                            style="background: url(https://crmplatform.misacdn.net/app/assets/Images/icon/icon_collection_v2.svg) no-repeat repeat -128px -273px;">
+
+                        </div>
+                        <p class="header__nav-item-text">
+                            Hoạt động
+                        </p>
+                    </li>
+                    <li class="header__nav-item">
+                        <div class="header__nav-item-icon"
+                            style="background: url(https://crmplatform.misacdn.net/app/assets/Images/icon/icon_collection_v2.svg) no-repeat repeat -81px -273px;">
+
+                        </div>
+                        <p class="header__nav-item-text">
+                            Mục Tiêu
+                        </p>
+                    </li>
+                    <li class="header__nav-item">
+                        <div class="header__nav-item-icon"
+                            style="background: url(https://crmplatform.misacdn.net/app/assets/Images/icon/icon_collection_v2.svg) no-repeat repeat -208px -48px;">
+
+                        </div>
+                        <p class="header__nav-item-text">
+                            Chiến dịch
+                        </p>
+                    </li>
+                    <li class="header__nav-item">
+                        <div class="header__nav-item-icon"
+                            style="background: url(https://crmplatform.misacdn.net/app/assets/Images/icon/icon_collection_v2.svg) no-repeat repeat -32px -272px;">
+
+                        </div>
+                        <p class="header__nav-item-text">
+                            Báo cáo
+                        </p>
+                    </li>
+                    <li class="header__nav-item">
+                        <div class="header__nav-item-icon"
+                            style="background: url(https://crmplatform.misacdn.net/app/assets/Images/icon/icon_collection_v2.svg) no-repeat repeat -48px -272px;">
+
+                        </div>
+                        <p class="header__nav-item-text">
+                            Khác
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="toolbar">
+            <div class="toolbar__left">
+                <h3 class="toolbar__name">
+                    Tất cả tiềm năng
+                    <div class="toolbar__name-icon"></div>
+                </h3>
+                <div class="toolbar__fix">
+                    Sửa
+                    <div class="toolbar__fix-icon"></div>
+                </div>
+            </div>
+            <div class="toolbar__right">
+                <div class="btn btn-with-icon">
+                    <div class="btn-content">
+                        <div class="icon-add-white"></div>
+                        <p class="btn-content-text">Thêm</p>
+                    </div>
+                    <div class="btn-click">
+                        <div class="icon-dow-white"></div>
+                    </div>
+                </div>
+                <div class="btn btn-other">
+                </div>
+                <div class="btn btn-show-menu">
+                    <div class="icon-drop-down"></div>
+                    <div class="btn-drop"></div>
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <div class="content-left" id="content-left">
+                <div class="siderbar-left__postion" id="siderbar-left__postion">
+                    <div class="icon-left"></div>
+                    <div class="icon-right display-none"></div>
+                </div>
+                <div class="filter" id="filter">
+                    <div class="filter__top">
+                        <div class="filter__text">THƯ MỤC</div>
+                        <div class="filter__icon"></div>
+                    </div>
+                    <div class="filter__bottom">
+                        <div class="filter__bottom-label">
+                            <div class="filter__text">Lọc Tiền Năng Theo</div>
+                            <div class="icon-search"></div>
+                        </div>
+                        <ul class="filter__list">
+                            <li class="filter__item">
+                                <input type="checkbox" class="filter_input">
+                                <div class="filter__item-text">Thẻ</div>
+                            </li>
+                            <li class="filter__item">
+                                <input type="checkbox" class="filter_input">
+                                <div class="filter__item-text">Xưng hô</div>
+                            </li>
+                            <li class="filter__item">
+                                <input type="checkbox" class="filter_input">
+                                <div class="filter__item-text">Họ và Tên</div>
+                            </li>
+                            <li class="filter__item">
+                                <input type="checkbox" class="filter_input">
+                                <div class="filter__item-text">Chức Danh</div>
+                            </li>
+                            <li class="filter__item">
+                                <input type="checkbox" class="filter_input">
+                                <div class="filter__item-text">ĐT di động</div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="content-center">
+                <div class="table-paging">
+                    <div class="table-container">
+                        <div class="table-header">
+                            <div class="thead">
+                                <div class="tr">
+                                    <div class="th">
+                                        <span class="th-icon-sum background-icon__header-sum"></span>
+                                    </div>
+                                    <div class="th">
+                                        <input type="checkbox" />
+                                    </div>
+                                    <div class="th">
+                                        Thẻ
+                                    </div>
+                                    <div class="th">
+                                        Xưng hô
+                                    </div>
+                                    <div class="th">
+                                        Họ và tên
+                                    </div>
+                                    <div class="th">
+                                        Chức danh
+                                    </div>
+                                    <div class="th">
+                                        ĐT di động
+                                    </div>
+                                    <div class="th">
+                                        ĐT cơ quan
+                                    </div>
+                                    <div class="th">
+                                        Email cơ quan
+                                    </div>
+                                    <div class="th">
+                                        Email cá nhân
+                                    </div>
+                                    <div class="th">
+                                        Tổ chức
+                                    </div>
+                                    <div class="th">
+                                        Mã số thuế
+                                    </div>
+                                    <div class="th">
+                                        Tài khoản ngân hàng
+                                    </div>
+                                    <div class="th">
+                                        Mở tại ngân hàng
+                                    </div>
+                                    <div class="th">
+                                        Ngày thành lập
+                                    </div>
+                                    <div class="th">
+                                        Loại hình
+                                    </div>
+                                    <div class="th">
+                                        Lĩnh vực
+                                    </div>
+                                    <div class="th">
+                                        Ngành nghề
+                                    </div>
+                                    <div class="th">
+                                        Doanh thu
+                                    </div>
+                                    <div class="th">
+                                        Địa chỉ
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="table-content">
+                            <div class="tbody">
+                                <div class="tr">
+                                    <div class="td">
+
+                                    </div>
+                                    <div class="td">
+                                        <input type="checkbox" />
+                                    </div>
+                                    <div class="td">
+                                    </div>
+                                    <div class="td">
+                                        Anh
+                                    </div>
+                                    <div class="td">
+                                        Phạm Văn Đạt
+                                    </div>
+                                    <div class="td">
+                                        Thực tập sinh
+                                    </div>
+                                    <div class="td">
+                                        0123457894
+                                    </div>
+                                    <div class="td">
+                                        0123564657
+                                    </div>
+                                    <div class="td">
+                                        phamphamaahaashsnfbhdndhh@gmail.com
+                                    </div>
+                                    <div class="td">
+                                        phamphamaahaashsnfbhdndhh@gmail.com
+                                    </div>
+                                    <div class="td">
+                                        Tổ chức A
+                                    </div>
+                                    <div class="td">
+                                        0668845123
+                                    </div>
+                                    <div class="td">
+                                        Helo pay
+                                    </div>
+                                    <div class="td">
+                                        Hà Nội
+                                    </div>
+                                    <div class="td">
+                                        10/10/2019
+                                    </div>
+                                    <div class="td">
+                                        Banking
+                                    </div>
+                                    <div class="td">
+                                        Công Nghệ Thông tin
+                                    </div>
+                                    <div class="td">
+                                        Lập trình viên
+                                    </div>
+                                    <div class="td">
+                                        000.000.000 VNĐ
+                                    </div>
+                                    <div class="td">
+                                        Hà Nội Hà Nội Hà Nội Hà Nội Hà Nội Hà Nội Hà Nội Hà Nội Hà Nội
+                                    </div>
+                                </div>
+                                <div class="tr">
+                                    <div class="td"></div>
+                                    <div class="td">
+                                        <input type="checkbox" />
+                                    </div>
+                                    <div class="td">
+                                    </div>
+                                    <div class="td">
+                                        Anh
+                                    </div>
+                                    <div class="td">
+                                        Phạm Văn Đạt
+                                    </div>
+                                    <div class="td">
+                                        Thực tập sinh
+                                    </div>
+                                    <div class="td">
+                                        0123457894
+                                    </div>
+                                    <div class="td">
+                                        0123564657
+                                    </div>
+                                    <div class="td">
+                                        phamphamaahaashsnfbhdndhh@gmail.com
+                                    </div>
+                                    <div class="td">
+                                        phamphamaahaashsnfbhdndhh@gmail.com
+                                    </div>
+                                    <div class="td">
+                                        Tổ chức A
+                                    </div>
+                                    <div class="td">
+                                        0668845123
+                                    </div>
+                                    <div class="td">
+                                        Helo pay
+                                    </div>
+                                    <div class="td">
+                                        Hà Nội
+                                    </div>
+                                    <div class="td">
+                                        10/10/2019
+                                    </div>
+                                    <div class="td">
+                                        Banking
+                                    </div>
+                                    <div class="td">
+                                        Công Nghệ Thông tin
+                                    </div>
+                                    <div class="td">
+                                        Lập trình viên
+                                    </div>
+                                    <div class="td">
+                                        000.000.000 VNĐ
+                                    </div>
+                                    <div class="td">
+                                        Hà Nội Hà Nội Hà Nội Hà Nội Hà Nội Hà Nội Hà Nội Hà Nội Hà Nội
+                                    </div>
+                                </div>
+                                <div class="tr">
+                                    <div class="td"></div>
+                                    <div class="td">
+                                        <input type="checkbox" />
+                                    </div>
+                                    <div class="td">
+                                    </div>
+                                    <div class="td">
+                                        Anh
+                                    </div>
+                                    <div class="td">
+                                        Phạm Văn Đạt
+                                    </div>
+                                    <div class="td">
+                                        Thực tập sinh
+                                    </div>
+                                    <div class="td">
+                                        0123457894
+                                    </div>
+                                    <div class="td">
+                                        0123564657
+                                    </div>
+                                    <div class="td">
+                                        phamphamaahaashsnfbhdndhh@gmail.com
+                                    </div>
+                                    <div class="td">
+                                        phamphamaahaashsnfbhdndhh@gmail.com
+                                    </div>
+                                    <div class="td">
+                                        Tổ chức A
+                                    </div>
+                                    <div class="td">
+                                        0668845123
+                                    </div>
+                                    <div class="td">
+                                        Helo pay
+                                    </div>
+                                    <div class="td">
+                                        Hà Nội
+                                    </div>
+                                    <div class="td">
+                                        10/10/2019
+                                    </div>
+                                    <div class="td">
+                                        Banking
+                                    </div>
+                                    <div class="td">
+                                        Công Nghệ Thông tin
+                                    </div>
+                                    <div class="td">
+                                        Lập trình viên
+                                    </div>
+                                    <div class="td">
+                                        000.000.000 VNĐ
+                                    </div>
+                                    <div class="td">
+                                        Hà Nội Hà Nội Hà Nội Hà Nội Hà Nội Hà Nội Hà Nội Hà Nội Hà Nội
+                                    </div>
+                                </div>
+                                <div class="tr">
+                                    <div class="td"></div>
+                                    <div class="td">
+                                        <input type="checkbox" />
+                                    </div>
+                                    <div class="td">
+                                    </div>
+                                    <div class="td">
+                                        Anh
+                                    </div>
+                                    <div class="td">
+                                        Phạm Văn Đạt
+                                    </div>
+                                    <div class="td">
+                                        Thực tập sinh
+                                    </div>
+                                    <div class="td">
+                                        0123457894
+                                    </div>
+                                    <div class="td">
+                                        0123564657
+                                    </div>
+                                    <div class="td">
+                                        phamphamaahaashsnfbhdndhh@gmail.com
+                                    </div>
+                                    <div class="td">
+                                        phamphamaahaashsnfbhdndhh@gmail.com
+                                    </div>
+                                    <div class="td">
+                                        Tổ chức A
+                                    </div>
+                                    <div class="td">
+                                        0668845123
+                                    </div>
+                                    <div class="td">
+                                        Helo pay
+                                    </div>
+                                    <div class="td">
+                                        Hà Nội
+                                    </div>
+                                    <div class="td">
+                                        10/10/2019
+                                    </div>
+                                    <div class="td">
+                                        Banking
+                                    </div>
+                                    <div class="td">
+                                        Công Nghệ Thông tin
+                                    </div>
+                                    <div class="td">
+                                        Lập trình viên
+                                    </div>
+                                    <div class="td">
+                                        000.000.000 VNĐ
+                                    </div>
+                                    <div class="td">
+                                        Hà Nội Hà Nội Hà Nội Hà Nội Hà Nội Hà Nội Hà Nội Hà Nội Hà Nội
+                                    </div>
+                                </div>
+                                <div class="tr">
+                                    <div class="td"></div>
+                                    <div class="td">
+                                        <input type="checkbox" />
+                                    </div>
+                                    <div class="td">
+                                    </div>
+                                    <div class="td">
+                                        Anh
+                                    </div>
+                                    <div class="td">
+                                        Phạm Văn Đạt
+                                    </div>
+                                    <div class="td">
+                                        Thực tập sinh
+                                    </div>
+                                    <div class="td">
+                                        0123457894
+                                    </div>
+                                    <div class="td">
+                                        0123564657
+                                    </div>
+                                    <div class="td">
+                                        phamphamaahaashsnfbhdndhh@gmail.com
+                                    </div>
+                                    <div class="td">
+                                        phamphamaahaashsnfbhdndhh@gmail.com
+                                    </div>
+                                    <div class="td">
+                                        Tổ chức A
+                                    </div>
+                                    <div class="td">
+                                        0668845123
+                                    </div>
+                                    <div class="td">
+                                        Helo pay
+                                    </div>
+                                    <div class="td">
+                                        Hà Nội
+                                    </div>
+                                    <div class="td">
+                                        10/10/2019
+                                    </div>
+                                    <div class="td">
+                                        Banking
+                                    </div>
+                                    <div class="td">
+                                        Công Nghệ Thông tin
+                                    </div>
+                                    <div class="td">
+                                        Lập trình viên
+                                    </div>
+                                    <div class="td">
+                                        000.000.000 VNĐ
+                                    </div>
+                                    <div class="td">
+                                        Hà Nội Hà Nội Hà Nội Hà Nội Hà Nội Hà Nội Hà Nội Hà Nội Hà Nội
+                                    </div>
+                                </div>
+                                <div class="tr">
+                                    <div class="td"></div>
+                                    <div class="td">
+                                        <input type="checkbox" />
+                                    </div>
+                                    <div class="td">
+                                    </div>
+                                    <div class="td">
+                                        Anh
+                                    </div>
+                                    <div class="td">
+                                        Phạm Văn Đạt
+                                    </div>
+                                    <div class="td">
+                                        Thực tập sinh
+                                    </div>
+                                    <div class="td">
+                                        0123457894
+                                    </div>
+                                    <div class="td">
+                                        0123564657
+                                    </div>
+                                    <div class="td">
+                                        phamphamaahaashsnfbhdndhh@gmail.com
+                                    </div>
+                                    <div class="td">
+                                        phamphamaahaashsnfbhdndhh@gmail.com
+                                    </div>
+                                    <div class="td">
+                                        Tổ chức A
+                                    </div>
+                                    <div class="td">
+                                        0668845123
+                                    </div>
+                                    <div class="td">
+                                        Helo pay
+                                    </div>
+                                    <div class="td">
+                                        Hà Nội
+                                    </div>
+                                    <div class="td">
+                                        10/10/2019
+                                    </div>
+                                    <div class="td">
+                                        Banking
+                                    </div>
+                                    <div class="td">
+                                        Công Nghệ Thông tin
+                                    </div>
+                                    <div class="td">
+                                        Lập trình viên
+                                    </div>
+                                    <div class="td">
+                                        000.000.000 VNĐ
+                                    </div>
+                                    <div class="td">
+                                        Hà Nội Hà Nội Hà Nội Hà Nội Hà Nội Hà Nội Hà Nội Hà Nội Hà Nội
+                                    </div>
+                                </div>
+                                <div class="tr">
+                                    <div class="td"></div>
+                                    <div class="td">
+                                        <input type="checkbox" />
+                                    </div>
+                                    <div class="td">
+                                    </div>
+                                    <div class="td">
+                                        Anh
+                                    </div>
+                                    <div class="td">
+                                        Phạm Văn Đạt
+                                    </div>
+                                    <div class="td">
+                                        Thực tập sinh
+                                    </div>
+                                    <div class="td">
+                                        0123457894
+                                    </div>
+                                    <div class="td">
+                                        0123564657
+                                    </div>
+                                    <div class="td">
+                                        phamphamaahaashsnfbhdndhh@gmail.com
+                                    </div>
+                                    <div class="td">
+                                        phamphamaahaashsnfbhdndhh@gmail.com
+                                    </div>
+                                    <div class="td">
+                                        Tổ chức A
+                                    </div>
+                                    <div class="td">
+                                        0668845123
+                                    </div>
+                                    <div class="td">
+                                        Helo pay
+                                    </div>
+                                    <div class="td">
+                                        Hà Nội
+                                    </div>
+                                    <div class="td">
+                                        10/10/2019
+                                    </div>
+                                    <div class="td">
+                                        Banking
+                                    </div>
+                                    <div class="td">
+                                        Công Nghệ Thông tin
+                                    </div>
+                                    <div class="td">
+                                        Lập trình viên
+                                    </div>
+                                    <div class="td">
+                                        000.000.000 VNĐ
+                                    </div>
+                                    <div class="td">
+                                        Hà Nội Hà Nội Hà Nội Hà Nội Hà Nội Hà Nội Hà Nội Hà Nội Hà Nội
+                                    </div>
+                                </div>
+                                <div class="tr">
+                                    <div class="td"></div>
+                                    <div class="td">
+                                        <input type="checkbox" />
+                                    </div>
+                                    <div class="td">
+                                    </div>
+                                    <div class="td">
+                                        Anh
+                                    </div>
+                                    <div class="td">
+                                        Phạm Văn Đạt
+                                    </div>
+                                    <div class="td">
+                                        Thực tập sinh
+                                    </div>
+                                    <div class="td">
+                                        0123457894
+                                    </div>
+                                    <div class="td">
+                                        0123564657
+                                    </div>
+                                    <div class="td">
+                                        phamphamaahaashsnfbhdndhh@gmail.com
+                                    </div>
+                                    <div class="td">
+                                        phamphamaahaashsnfbhdndhh@gmail.com
+                                    </div>
+                                    <div class="td">
+                                        Tổ chức A
+                                    </div>
+                                    <div class="td">
+                                        0668845123
+                                    </div>
+                                    <div class="td">
+                                        Helo pay
+                                    </div>
+                                    <div class="td">
+                                        Hà Nội
+                                    </div>
+                                    <div class="td">
+                                        10/10/2019
+                                    </div>
+                                    <div class="td">
+                                        Banking
+                                    </div>
+                                    <div class="td">
+                                        Công Nghệ Thông tin
+                                    </div>
+                                    <div class="td">
+                                        Lập trình viên
+                                    </div>
+                                    <div class="td">
+                                        000.000.000 VNĐ
+                                    </div>
+                                    <div class="td">
+                                        Hà Nội Hà Nội Hà Nội Hà Nội Hà Nội Hà Nội Hà Nội Hà Nội Hà Nội
+                                    </div>
+                                </div>
+                                <div class="tr">
+                                    <div class="td"></div>
+                                    <div class="td">
+                                        <input type="checkbox" />
+                                    </div>
+                                    <div class="td">
+                                    </div>
+                                    <div class="td">
+                                        Anh
+                                    </div>
+                                    <div class="td">
+                                        Phạm Văn Đạt
+                                    </div>
+                                    <div class="td">
+                                        Thực tập sinh
+                                    </div>
+                                    <div class="td">
+                                        0123457894
+                                    </div>
+                                    <div class="td">
+                                        0123564657
+                                    </div>
+                                    <div class="td">
+                                        phamphamaahaashsnfbhdndhh@gmail.com
+                                    </div>
+                                    <div class="td">
+                                        phamphamaahaashsnfbhdndhh@gmail.com
+                                    </div>
+                                    <div class="td">
+                                        Tổ chức A
+                                    </div>
+                                    <div class="td">
+                                        0668845123
+                                    </div>
+                                    <div class="td">
+                                        Helo pay
+                                    </div>
+                                    <div class="td">
+                                        Hà Nội
+                                    </div>
+                                    <div class="td">
+                                        10/10/2019
+                                    </div>
+                                    <div class="td">
+                                        Banking
+                                    </div>
+                                    <div class="td">
+                                        Công Nghệ Thông tin
+                                    </div>
+                                    <div class="td">
+                                        Lập trình viên
+                                    </div>
+                                    <div class="td">
+                                        000.000.000 VNĐ
+                                    </div>
+                                    <div class="td">
+                                        Hà Nội Hà Nội Hà Nội Hà Nội Hà Nội Hà Nội Hà Nội Hà Nội Hà Nội
+                                    </div>
+                                </div>
+                                <div class="tr">
+                                    <div class="td"></div>
+                                    <div class="td">
+                                        <input type="checkbox" />
+                                    </div>
+                                    <div class="td">
+                                    </div>
+                                    <div class="td">
+                                        Anh
+                                    </div>
+                                    <div class="td">
+                                        Phạm Văn Đạt
+                                    </div>
+                                    <div class="td">
+                                        Thực tập sinh
+                                    </div>
+                                    <div class="td">
+                                        0123457894
+                                    </div>
+                                    <div class="td">
+                                        0123564657
+                                    </div>
+                                    <div class="td">
+                                        phamphamaahaashsnfbhdndhh@gmail.com
+                                    </div>
+                                    <div class="td">
+                                        phamphamaahaashsnfbhdndhh@gmail.com
+                                    </div>
+                                    <div class="td">
+                                        Tổ chức A
+                                    </div>
+                                    <div class="td">
+                                        0668845123
+                                    </div>
+                                    <div class="td">
+                                        Helo pay
+                                    </div>
+                                    <div class="td">
+                                        Hà Nội
+                                    </div>
+                                    <div class="td">
+                                        10/10/2019
+                                    </div>
+                                    <div class="td">
+                                        Banking
+                                    </div>
+                                    <div class="td">
+                                        Công Nghệ Thông tin
+                                    </div>
+                                    <div class="td">
+                                        Lập trình viên
+                                    </div>
+                                    <div class="td">
+                                        000.000.000 VNĐ
+                                    </div>
+                                    <div class="td">
+                                        Hà Nội Hà Nội Hà Nội Hà Nội Hà Nội Hà Nội Hà Nội Hà Nội Hà Nội
+                                    </div>
+                                </div>
+                                <div class="tr">
+                                    <div class="td"></div>
+                                    <div class="td">
+                                        <input type="checkbox" />
+                                    </div>
+                                    <div class="td">
+                                    </div>
+                                    <div class="td">
+                                        Anh
+                                    </div>
+                                    <div class="td">
+                                        Phạm Văn Đạt
+                                    </div>
+                                    <div class="td">
+                                        Thực tập sinh
+                                    </div>
+                                    <div class="td">
+                                        0123457894
+                                    </div>
+                                    <div class="td">
+                                        0123564657
+                                    </div>
+                                    <div class="td">
+                                        phamphamaahaashsnfbhdndhh@gmail.com
+                                    </div>
+                                    <div class="td">
+                                        phamphamaahaashsnfbhdndhh@gmail.com
+                                    </div>
+                                    <div class="td">
+                                        Tổ chức A
+                                    </div>
+                                    <div class="td">
+                                        0668845123
+                                    </div>
+                                    <div class="td">
+                                        Helo pay
+                                    </div>
+                                    <div class="td">
+                                        Hà Nội
+                                    </div>
+                                    <div class="td">
+                                        10/10/2019
+                                    </div>
+                                    <div class="td">
+                                        Banking
+                                    </div>
+                                    <div class="td">
+                                        Công Nghệ Thông tin
+                                    </div>
+                                    <div class="td">
+                                        Lập trình viên
+                                    </div>
+                                    <div class="td">
+                                        000.000.000 VNĐ
+                                    </div>
+                                    <div class="td">
+                                        Hà Nội Hà Nội Hà Nội Hà Nội Hà Nội Hà Nội Hà Nội Hà Nội Hà Nội
+                                    </div>
+                                </div>
+                                <div class="tr">
+                                    <div class="td"></div>
+                                    <div class="td">
+                                        <input type="checkbox" />
+                                    </div>
+                                    <div class="td">
+                                    </div>
+                                    <div class="td">
+                                        Anh
+                                    </div>
+                                    <div class="td">
+                                        Phạm Văn Đạt
+                                    </div>
+                                    <div class="td">
+                                        Thực tập sinh
+                                    </div>
+                                    <div class="td">
+                                        0123457894
+                                    </div>
+                                    <div class="td">
+                                        0123564657
+                                    </div>
+                                    <div class="td">
+                                        phamphamaahaashsnfbhdndhh@gmail.com
+                                    </div>
+                                    <div class="td">
+                                        phamphamaahaashsnfbhdndhh@gmail.com
+                                    </div>
+                                    <div class="td">
+                                        Tổ chức A
+                                    </div>
+                                    <div class="td">
+                                        0668845123
+                                    </div>
+                                    <div class="td">
+                                        Helo pay
+                                    </div>
+                                    <div class="td">
+                                        Hà Nội
+                                    </div>
+                                    <div class="td">
+                                        10/10/2019
+                                    </div>
+                                    <div class="td">
+                                        Banking
+                                    </div>
+                                    <div class="td">
+                                        Công Nghệ Thông tin
+                                    </div>
+                                    <div class="td">
+                                        Lập trình viên
+                                    </div>
+                                    <div class="td">
+                                        000.000.000 VNĐ
+                                    </div>
+                                    <div class="td">
+                                        Hà Nội Hà Nội Hà Nội Hà Nội Hà Nội Hà Nội Hà Nội Hà Nội Hà Nội
+                                    </div>
+                                </div>
+                                <div class="tr">
+                                    <div class="td"></div>
+                                    <div class="td">
+                                        <input type="checkbox" />
+                                    </div>
+                                    <div class="td">
+                                    </div>
+                                    <div class="td">
+                                        Anh
+                                    </div>
+                                    <div class="td">
+                                        Phạm Văn Đạt
+                                    </div>
+                                    <div class="td">
+                                        Thực tập sinh
+                                    </div>
+                                    <div class="td">
+                                        0123457894
+                                    </div>
+                                    <div class="td">
+                                        0123564657
+                                    </div>
+                                    <div class="td">
+                                        phamphamaahaashsnfbhdndhh@gmail.com
+                                    </div>
+                                    <div class="td">
+                                        phamphamaahaashsnfbhdndhh@gmail.com
+                                    </div>
+                                    <div class="td">
+                                        Tổ chức A
+                                    </div>
+                                    <div class="td">
+                                        0668845123
+                                    </div>
+                                    <div class="td">
+                                        Helo pay
+                                    </div>
+                                    <div class="td">
+                                        Hà Nội
+                                    </div>
+                                    <div class="td">
+                                        10/10/2019
+                                    </div>
+                                    <div class="td">
+                                        Banking
+                                    </div>
+                                    <div class="td">
+                                        Công Nghệ Thông tin
+                                    </div>
+                                    <div class="td">
+                                        Lập trình viên
+                                    </div>
+                                    <div class="td">
+                                        000.000.000 VNĐ
+                                    </div>
+                                    <div class="td">
+                                        Hà Nội Hà Nội Hà Nội Hà Nội Hà Nội Hà Nội Hà Nội Hà Nội Hà Nội
+                                    </div>
+                                </div>
+                                <div class="tr">
+                                    <div class="td"></div>
+                                    <div class="td">
+                                        <input type="checkbox" />
+                                    </div>
+                                    <div class="td">
+                                    </div>
+                                    <div class="td">
+                                        Anh
+                                    </div>
+                                    <div class="td">
+                                        Phạm Văn Đạt
+                                    </div>
+                                    <div class="td">
+                                        Thực tập sinh
+                                    </div>
+                                    <div class="td">
+                                        0123457894
+                                    </div>
+                                    <div class="td">
+                                        0123564657
+                                    </div>
+                                    <div class="td">
+                                        phamphamaahaashsnfbhdndhh@gmail.com
+                                    </div>
+                                    <div class="td">
+                                        phamphamaahaashsnfbhdndhh@gmail.com
+                                    </div>
+                                    <div class="td">
+                                        Tổ chức A
+                                    </div>
+                                    <div class="td">
+                                        0668845123
+                                    </div>
+                                    <div class="td">
+                                        Helo pay
+                                    </div>
+                                    <div class="td">
+                                        Hà Nội
+                                    </div>
+                                    <div class="td">
+                                        10/10/2019
+                                    </div>
+                                    <div class="td">
+                                        Banking
+                                    </div>
+                                    <div class="td">
+                                        Công Nghệ Thông tin
+                                    </div>
+                                    <div class="td">
+                                        Lập trình viên
+                                    </div>
+                                    <div class="td">
+                                        000.000.000 VNĐ
+                                    </div>
+                                    <div class="td">
+                                        Hà Nội Hà Nội Hà Nội Hà Nội Hà Nội Hà Nội Hà Nội Hà Nội Hà Nội
+                                    </div>
+                                </div>
+                                <div class="tr">
+                                    <div class="td"></div>
+                                    <div class="td">
+                                        <input type="checkbox" />
+                                    </div>
+                                    <div class="td">
+                                    </div>
+                                    <div class="td">
+                                        Anh
+                                    </div>
+                                    <div class="td">
+                                        Phạm Văn Đạt
+                                    </div>
+                                    <div class="td">
+                                        Thực tập sinh
+                                    </div>
+                                    <div class="td">
+                                        0123457894
+                                    </div>
+                                    <div class="td">
+                                        0123564657
+                                    </div>
+                                    <div class="td">
+                                        phamphamaahaashsnfbhdndhh@gmail.com
+                                    </div>
+                                    <div class="td">
+                                        phamphamaahaashsnfbhdndhh@gmail.com
+                                    </div>
+                                    <div class="td">
+                                        Tổ chức A
+                                    </div>
+                                    <div class="td">
+                                        0668845123
+                                    </div>
+                                    <div class="td">
+                                        Helo pay
+                                    </div>
+                                    <div class="td">
+                                        Hà Nội
+                                    </div>
+                                    <div class="td">
+                                        10/10/2019
+                                    </div>
+                                    <div class="td">
+                                        Banking
+                                    </div>
+                                    <div class="td">
+                                        Công Nghệ Thông tin
+                                    </div>
+                                    <div class="td">
+                                        Lập trình viên
+                                    </div>
+                                    <div class="td">
+                                        000.000.000 VNĐ
+                                    </div>
+                                    <div class="td">
+                                        Hà Nội Hà Nội Hà Nội Hà Nội Hà Nội Hà Nội Hà Nội Hà Nội Hà Nội
+                                    </div>
+                                </div>
+                                <div class="tr">
+                                    <div class="td"></div>
+                                    <div class="td">
+                                        <input type="checkbox" />
+                                    </div>
+                                    <div class="td">
+                                    </div>
+                                    <div class="td">
+                                        Anh
+                                    </div>
+                                    <div class="td">
+                                        Phạm Văn Đạt
+                                    </div>
+                                    <div class="td">
+                                        Thực tập sinh
+                                    </div>
+                                    <div class="td">
+                                        0123457894
+                                    </div>
+                                    <div class="td">
+                                        0123564657
+                                    </div>
+                                    <div class="td">
+                                        phamphamaahaashsnfbhdndhh@gmail.com
+                                    </div>
+                                    <div class="td">
+                                        phamphamaahaashsnfbhdndhh@gmail.com
+                                    </div>
+                                    <div class="td">
+                                        Tổ chức A
+                                    </div>
+                                    <div class="td">
+                                        0668845123
+                                    </div>
+                                    <div class="td">
+                                        Helo pay
+                                    </div>
+                                    <div class="td">
+                                        Hà Nội
+                                    </div>
+                                    <div class="td">
+                                        10/10/2019
+                                    </div>
+                                    <div class="td">
+                                        Banking
+                                    </div>
+                                    <div class="td">
+                                        Công Nghệ Thông tin
+                                    </div>
+                                    <div class="td">
+                                        Lập trình viên
+                                    </div>
+                                    <div class="td">
+                                        000.000.000 VNĐ
+                                    </div>
+                                    <div class="td">
+                                        Hà Nội Hà Nội Hà Nội Hà Nội Hà Nội Hà Nội Hà Nội Hà Nội Hà Nội
+                                    </div>
+                                </div>
+                                <div class="tr">
+                                    <div class="td"></div>
+                                    <div class="td">
+                                        <input type="checkbox" />
+                                    </div>
+                                    <div class="td">
+                                    </div>
+                                    <div class="td">
+                                        Anh
+                                    </div>
+                                    <div class="td">
+                                        Phạm Văn Đạt
+                                    </div>
+                                    <div class="td">
+                                        Thực tập sinh
+                                    </div>
+                                    <div class="td">
+                                        0123457894
+                                    </div>
+                                    <div class="td">
+                                        0123564657
+                                    </div>
+                                    <div class="td">
+                                        phamphamaahaashsnfbhdndhh@gmail.com
+                                    </div>
+                                    <div class="td">
+                                        phamphamaahaashsnfbhdndhh@gmail.com
+                                    </div>
+                                    <div class="td">
+                                        Tổ chức A
+                                    </div>
+                                    <div class="td">
+                                        0668845123
+                                    </div>
+                                    <div class="td">
+                                        Helo pay
+                                    </div>
+                                    <div class="td">
+                                        Hà Nội
+                                    </div>
+                                    <div class="td">
+                                        10/10/2019
+                                    </div>
+                                    <div class="td">
+                                        Banking
+                                    </div>
+                                    <div class="td">
+                                        Công Nghệ Thông tin
+                                    </div>
+                                    <div class="td">
+                                        Lập trình viên
+                                    </div>
+                                    <div class="td">
+                                        000.000.000 VNĐ
+                                    </div>
+                                    <div class="td">
+                                        Hà Nội Hà Nội Hà Nội Hà Nội Hà Nội Hà Nội Hà Nội Hà Nội Hà Nội
+                                    </div>
+                                </div>
+                                <div class="tr">
+                                    <div class="td"></div>
+                                    <div class="td">
+                                        <input type="checkbox" />
+                                    </div>
+                                    <div class="td">
+                                    </div>
+                                    <div class="td">
+                                        Anh
+                                    </div>
+                                    <div class="td">
+                                        Phạm Văn Đạt
+                                    </div>
+                                    <div class="td">
+                                        Thực tập sinh
+                                    </div>
+                                    <div class="td">
+                                        0123457894
+                                    </div>
+                                    <div class="td">
+                                        0123564657
+                                    </div>
+                                    <div class="td">
+                                        phamphamaahaashsnfbhdndhh@gmail.com
+                                    </div>
+                                    <div class="td">
+                                        phamphamaahaashsnfbhdndhh@gmail.com
+                                    </div>
+                                    <div class="td">
+                                        Tổ chức A
+                                    </div>
+                                    <div class="td">
+                                        0668845123
+                                    </div>
+                                    <div class="td">
+                                        Helo pay
+                                    </div>
+                                    <div class="td">
+                                        Hà Nội
+                                    </div>
+                                    <div class="td">
+                                        10/10/2019
+                                    </div>
+                                    <div class="td">
+                                        Banking
+                                    </div>
+                                    <div class="td">
+                                        Công Nghệ Thông tin
+                                    </div>
+                                    <div class="td">
+                                        Lập trình viên
+                                    </div>
+                                    <div class="td">
+                                        000.000.000 VNĐ
+                                    </div>
+                                    <div class="td">
+                                        Hà Nội Hà Nội Hà Nội Hà Nội Hà Nội Hà Nội Hà Nội Hà Nội Hà Nội
+                                    </div>
+                                </div>
+                                <div class="tr">
+                                    <div class="td"></div>
+                                    <div class="td">
+                                        <input type="checkbox" />
+                                    </div>
+                                    <div class="td">
+                                    </div>
+                                    <div class="td">
+                                        Anh
+                                    </div>
+                                    <div class="td">
+                                        Phạm Văn Đạt
+                                    </div>
+                                    <div class="td">
+                                        Thực tập sinh
+                                    </div>
+                                    <div class="td">
+                                        0123457894
+                                    </div>
+                                    <div class="td">
+                                        0123564657
+                                    </div>
+                                    <div class="td">
+                                        phamphamaahaashsnfbhdndhh@gmail.com
+                                    </div>
+                                    <div class="td">
+                                        phamphamaahaashsnfbhdndhh@gmail.com
+                                    </div>
+                                    <div class="td">
+                                        Tổ chức A
+                                    </div>
+                                    <div class="td">
+                                        0668845123
+                                    </div>
+                                    <div class="td">
+                                        Helo pay
+                                    </div>
+                                    <div class="td">
+                                        Hà Nội
+                                    </div>
+                                    <div class="td">
+                                        10/10/2019
+                                    </div>
+                                    <div class="td">
+                                        Banking
+                                    </div>
+                                    <div class="td">
+                                        Công Nghệ Thông tin
+                                    </div>
+                                    <div class="td">
+                                        Lập trình viên
+                                    </div>
+                                    <div class="td">
+                                        000.000.000 VNĐ
+                                    </div>
+                                    <div class="td">
+                                        Hà Nội Hà Nội Hà Nội Hà Nội Hà Nội Hà Nội Hà Nội Hà Nội Hà Nội
+                                    </div>
+                                </div>
+                                <div class="tr">
+                                    <div class="td"></div>
+                                    <div class="td">
+                                        <input type="checkbox" />
+                                    </div>
+                                    <div class="td">
+                                    </div>
+                                    <div class="td">
+                                        Anh
+                                    </div>
+                                    <div class="td">
+                                        Phạm Văn Đạt
+                                    </div>
+                                    <div class="td">
+                                        Thực tập sinh
+                                    </div>
+                                    <div class="td">
+                                        0123457894
+                                    </div>
+                                    <div class="td">
+                                        0123564657
+                                    </div>
+                                    <div class="td">
+                                        phamphamaahaashsnfbhdndhh@gmail.com
+                                    </div>
+                                    <div class="td">
+                                        phamphamaahaashsnfbhdndhh@gmail.com
+                                    </div>
+                                    <div class="td">
+                                        Tổ chức A
+                                    </div>
+                                    <div class="td">
+                                        0668845123
+                                    </div>
+                                    <div class="td">
+                                        Helo pay
+                                    </div>
+                                    <div class="td">
+                                        Hà Nội
+                                    </div>
+                                    <div class="td">
+                                        10/10/2019
+                                    </div>
+                                    <div class="td">
+                                        Banking
+                                    </div>
+                                    <div class="td">
+                                        Công Nghệ Thông tin
+                                    </div>
+                                    <div class="td">
+                                        Lập trình viên
+                                    </div>
+                                    <div class="td">
+                                        000.000.000 VNĐ
+                                    </div>
+                                    <div class="td">
+                                        Hà Nội Hà Nội Hà Nội Hà Nội Hà Nội Hà Nội Hà Nội Hà Nội Hà Nội
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer">
+                    <div class="footer__left">
+                        <div class="footer__left-sort">
+                            <div class="icon-sort-setting"></div>
+                        </div>
+                        <div class="group-total-record">
+                            tổng số:
+                            <div class="total-size">2</div>
+                        </div>
+                    </div>
+                    <div class="footer__right">
+                        <div class="combobox">
+                            <div class="combobox__selected">
+                                <div class="combobox__input">
+                                    <input type="text" placeholder="" value="10 bản ghi trên Trang" readonly />
+                                </div>
+                                <div class="combobox__button">
+                                    <div class="icon icon-down"></div>
+                                </div>
+                            </div>
+                            <ul class="combobox__option-list footer__option-list">
+                                <li class="combobox__option-item combobox__option-item--active">
+                                    <div class="combobox__icon-check">
+                                        <div class="icon-selected"></div>
+                                    </div>
+                                    10 bản ghi trên Trang
+                                </li>
+                                <li class="combobox__option-item">
+                                    <div class="combobox__icon-check">
+                                        <div class="icon-selected"></div>
+                                    </div>
+                                    20 bản ghi trên Trang
+                                </li>
+                                <li class="combobox__option-item ">
+                                    <div class="combobox__icon-check">
+                                        <div class="icon-selected"></div>
+                                    </div>
+                                    50 bản ghi trên Trang
+                                </li>
+                                <li class="combobox__option-item ">
+                                    <div class="combobox__icon-check">
+                                        <div class="icon-selected"></div>
+                                    </div>
+                                    100 bản ghi trên Trang
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="nav-paging">
+                            <ul class="nav-list">
+                                <li class="nav-item nav-first">
+                                    <div class="nav-first-icon"></div>
+                                </li>
+                                <li class="nav-item nav-prev">
+                                    <div class="nav-prev-icon"></div>
+                                </li>
+                                <li class="nav-item nav-number">1</li>
+                                <li class="nav-item nav-text">đến</li>
+                                <li class="nav-item nav-number">2</li>
+                                <li class="nav-item nav-next">
+                                    <div class="nav-next-icon"></div>
+                                </li>
+                                <li class="nav-item nav-last">
+                                    <div class="nav-last-icon"></div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="content-right" id="content-right">
+                <div class="siderbar-right" id="siderbar-right">
+                    <div class="siderbar-right__postion" id="siderbar-right__postion">
+                        <div class="icon-right"></div>
+                        <div class="icon-left display-none"></div>
+                    </div>
+                    <div class="siderbar-right__header">
+                        <ul class="siderbar-right__header-list">
+                            <li class="siderbar-right__header-item">
+                                <div class="siderbar-right__header-icon icon-phone"></div>
+                            </li>
+                            <li class="siderbar-right__header-item">
+                                <div class="siderbar-right__header-icon icon-task"></div>
+                            </li>
+                            <li class="siderbar-right__header-item">
+                                <div class="siderbar-right__header-icon icon-demo"></div>
+                            </li>
+                            <li class="siderbar-right__header-item ">
+                                <div class="siderbar-right__header-icon icon-send-mail"></div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="siderbar-right__content">
+                        <p class="siderbar-right__content-tile title">Lịch Sử Giao Dịch</p>
+                        <ul class="siderbar-right__history-list">
+                            <li class="siderbar-right__history-item">
+                                <div class="siderbar-right__history-icon">
+                                    <div class="icon-note"></div>
+                                </div>
+                                <div class="siderbar-right__history-note">
+                                    <p class="siderbar-right__history-lable">Ghi Chú</p>
+                                    <div class="siderbar-right__info">
+                                        Nguyễn Văn Hà (A006) - 12/08/2001
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="../js/combobox.js"></script>
+    <script src="../js/table.js"></script>
+    <script src="../js/position_nav-right.js"></script>
+    <script src="../js/position_left.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,110 @@
+.table-paging{
+    overflow: hidden;
+
+}
+.table-container {
+    grid-row: 1/2;
+    display: grid;
+    grid-template-rows: 40px calc(100vh - 84px - 64px - 58px - 40px);
+}
+
+.tr {
+    display: grid;
+    grid-template-columns: 24px 24px 60px 80px 150px 150px 150px 150px 150px 150px 100px 150px 150px 150px 150px 150px 150px 150px 120px 200px;
+    padding: 0 16px;
+    height: 40px;
+    line-height: 40px;
+    text-align: start;
+    box-sizing: border-box; 
+}
+
+
+.tbody>.tr:hover .td{
+    background-color: #E7EBFC;
+    cursor: pointer;
+}
+
+.table-header {
+    font-family: 'Latin Bold';
+    grid-row: 1/2;
+    overflow: hidden;
+    position: relative;
+    border: 0px;
+    width: 1000%;
+    display: flex;
+    align-items: center;
+    background-color: #F0F2F4;
+}
+
+.table-content {
+    grid-row: 2/3;
+    position: relative;
+    overflow: auto;
+    width: 100%;
+}
+
+.th {
+    display: flex;
+    align-items: center;
+}
+
+.td,
+.th {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    padding: 0 4px;
+    border-bottom: 1px solid #D3D7DE;
+}
+
+input[type='checkbox']:after {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: relative;
+    background-color: transparent;
+    content: '';
+    border-radius: 4px;
+    display: inline-block;
+    visibility: visible;
+}
+
+input[type='checkbox']:checked:after {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: relative;
+    content: '';
+    background: transparent url(https://crmplatform.misacdn.net/app/assets/Images/icon/icon_collection.svg) no-repeat -176px -16px;
+    line-height: 16px;
+    display: inline-block;
+    visibility: visible;
+    text-align: center;
+    color: #fff;
+}
+
+.input-checked{
+    background-color: #fdefe7 !important;
+}
+
+
+::-webkit-scrollbar {
+    width: 12px;
+    height: 8px;
+    background-color: #F0F2F4;
+} 
+
+::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background-color: #C5C9D3;
+}
+
+::-webkit-scrollbar:hover{
+    width: 12px;
+}
+
+::-webkit-scrollbar:active{
+    width: 12px;
+}

@@ -1,0 +1,41 @@
+.paging {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.nav {
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 0;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.nav-item {
+    /* border: 1px solid #bbbbbb; */
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-text {
+    padding: 0 8px;
+}
+
+.nav-number {
+    font-family: MISA Roboto;
+    font-weight: 700;
+    cursor: default;
+}
+

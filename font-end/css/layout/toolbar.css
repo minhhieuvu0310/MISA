@@ -1,0 +1,95 @@
+.toolbar{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    background-color: #e2e4e9;
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.toolbar__left{
+    display: flex;
+    align-items: center;
+}
+
+.toolbar__name{
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.toolbar__name-icon{
+    width: 16px;
+    height: 16px;
+    margin: 4px 0 4px 4px;
+    background: transparent url(https://crmplatform.misacdn.net/app/assets/Images/icon/icon_collection.svg) no-repeat -48px -32px;
+}
+
+.toolbar__fix{
+    margin-left: 16px;
+    display: flex;
+    align-items: center;
+    color: #4262f0;
+    vertical-align: middle;
+    font-weight: 200;
+    cursor: pointer;
+}
+
+.toolbar__fix-icon{
+    width: 24px;
+    height: 24px;    
+    margin-left: 8px;
+    padding:4px ;
+    border-radius: 50%;
+}
+
+.toolbar__fix-icon::before{
+    content: "";
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: transparent url(https://crmplatform.misacdn.net/app/assets/Images/icon/icon_collection.svg) no-repeat -352px -32px;
+}
+.toolbar__fix-icon:hover{
+    background-color: #bbbbbb;
+}
+
+.toolbar__right{
+    display: flex;
+    align-items: center;
+}
+
+.btn.btn-other{
+    width: 32px;
+    background-color: #fff;
+    justify-content: center;
+    margin: 0 8px 0 0;
+}
+
+.btn-other::before{
+    position: absolute;
+    content: "";
+    display: inline-block;
+    background: transparent url(https://crmplatform.misacdn.net/app/assets/Images/icon/icon_collection.svg) no-repeat -48px 0;
+    width: 16px;
+    height: 16px;
+}
+
+.btn.btn-show-menu{
+    background-color: #fff;
+    padding: 8px;
+}
+.icon-drop-down{
+    width: 16px;
+    height: 16px;
+    background: transparent url(https://crmplatform.misacdn.net/app/assets/Images/icon/icon_collection.svg) no-repeat -128px -304px;
+}
+.btn-drop{
+    width: 16px;
+    height: 16px;
+    margin: 4px 0 4px 4px;
+    background: transparent url(https://crmplatform.misacdn.net/app/assets/Images/icon/icon_collection.svg) no-repeat -48px -32px;
+}

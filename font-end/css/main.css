@@ -1,0 +1,78 @@
+@import url(../css/layout/container.css);
+@import url(../css/layout/header.css);
+@import url(../css/layout/content.css);
+@import url(../css/layout/filter.css);
+@import url(../css/layout/toolbar.css);
+@import url(../css/layout/footer.css);
+@import url(../css/layout/popup_update.css);
+@import url(../css/layout/siderbar-right.css);
+
+@import url(../css/base/icon.css);
+@import url(../css/base/button.css);
+@import url(../css/base/input.css);
+@import url(../css/base/table.css);
+@import url(../css/base/combobox.css);
+@import url(../css/base/paging.css);
+@import url(../css/base/popup.css);
+
+
+@font-face {
+    font-family: MISA Roboto;
+    src: url(../assets/fonts/roboto-v20-vietnamese_latin-500.woff2);
+}
+
+@font-face {
+    font-family: MISA Roboto Italic;
+    src: url(../assets/fonts/roboto-v20-vietnamese_latin-italic.woff2);
+}
+
+@font-face {
+    font-family: MISA Roboto Eegular;
+    src: url(../assets/fonts/roboto-v20-vietnamese_latin-regular.woff2);
+}
+
+.heading{
+    font-family: MISA Roboto ;
+    font-size: 24px;
+}
+
+.title{
+    font-family: MISA Roboto Eegular;
+    font-size: 18px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: MISA Roboto Eegular;
+    font-size: 13px;
+    color: #454545;
+}
+
+.text-alagin--center{
+    text-align: center !important;
+}
+
+.text-alagin--right{
+    text-align: right !important;
+}
+.text-alagin--left{
+    text-align: left !important;
+}
+
+.flex-center{
+    display: flex;
+    align-items: center;
+}
+
+.display-block {
+    display: block;
+}
+
+.display-none{
+    display: none;
+}

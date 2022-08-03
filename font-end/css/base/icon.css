@@ -1,0 +1,162 @@
+.icon-call {
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    background: transparent url(../../assets/icon/icon_collection.svg) no-repeat -320px -48px;
+    margin-right: 4px;
+}
+
+.icon-other{
+    display: inline-block;
+    background: transparent url(https://crmplatform.misacdn.net/app/assets/Images/icon/icon_collection.svg) no-repeat -48px 0;
+    width: 16px;
+    height: 16px;
+}
+
+.icon-add-columns {
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    background: transparent url(https://crmplatform.misacdn.net/app/assets/Images/icon/icon_collection.svg) no-repeat 0px 0px;
+}
+
+.icon-edit {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: transparent url(https://crmplatform.misacdn.net/app/assets/Images/icon/icon_collection.svg) no-repeat -128px 0px;
+}
+
+.icon-sort-setting {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: transparent url(https://crmplatform.misacdn.net/app/assets/Images/icon/icon_collection.svg) no-repeat -272px -176px;
+}
+
+.icon-down {
+    width: 16px;
+    height: 16px;
+    margin: 4px 0 4px 4px;
+    background: transparent url(https://crmplatform.misacdn.net/app/assets/Images/icon/icon_collection.svg) no-repeat -45px -31px;
+    cursor: pointer;
+}
+
+.icon-selected {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: transparent url(https://crmplatform.misacdn.net/app/assets/Images/icon/icon_collection.svg) no-repeat -336px -144px;
+}
+
+.icon-search {
+    background: url(https://crmplatform.misacdn.net/app/assets/Images/icon/icon_collection.svg) no-repeat -32px 0px;
+    width: 16px;
+    height: 16px;
+}
+
+.nav-first-icon {
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    background: transparent url(https://crmplatform.misacdn.net/app/assets/Images/icon/icon_collection.svg) no-repeat -112px -224px;
+}
+
+.nav-prev-icon {
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    background: transparent url(https://crmplatform.misacdn.net/app/assets/Images/icon/icon_collection.svg) no-repeat -288px -32px;
+}
+
+.nav-next-icon {
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    background: transparent url(https://crmplatform.misacdn.net/app/assets/Images/icon/icon_collection.svg) no-repeat -304px -32px;
+}
+
+.nav-last-icon {
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    background: transparent url(https://crmplatform.misacdn.net/app/assets/Images/icon/icon_collection.svg) no-repeat -128px -224px;
+}
+
+.icon-close {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: transparent url(https://crmplatform.misacdn.net/app/assets/Images/icon/icon_collection.svg) no-repeat -64px -16px;
+}
+
+.icon-help {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: transparent url(https://crmplatform.misacdn.net/app/assets/Images/icon/icon_collection.svg) no-repeat -224px 0px;
+}
+
+.icon-dow-white{
+    display: inline-block;
+    background: url(../../assets/icon/icon_collection.svg) no-repeat -80px -160px;
+    width: 16px;
+    height: 16px;
+}
+
+.icon-add-white{
+    display: inline-block;
+    background: url(../../assets/icon/icon_collection.svg) no-repeat -240px -128px;
+    width: 16px;
+    height: 16px;
+}
+
+.icon-phone{
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    background: transparent url(https://crmplatform.misacdn.net/app/assets/Images/icon/icon_collection.svg) no-repeat -176px -321px;
+    cursor: pointer;
+}
+
+.icon-task{
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    background: transparent url(https://crmplatform.misacdn.net/app/assets/Images/icon/icon_collection.svg) no-repeat -192px -321px;
+}
+
+.icon-demo{
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: transparent url(https://crmplatform.misacdn.net/app/assets/Images/icon/icon_collection.svg) no-repeat -208px -321px;
+}
+
+.icon-send-mail{
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: transparent url(https://crmplatform.misacdn.net/app/assets/Images/icon/icon_collection.svg) no-repeat 0px -320px
+}
+
+.icon-note{
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: url(https://crmplatform.misacdn.net/app/assets/Images/icon/icon_collection.svg) no-repeat -272px -112px;
+}
+
+.icon-right{
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    background: transparent url(https://crmplatform.misacdn.net/app/assets/Images/icon/icon_collection.svg) no-repeat 0px -32px;
+}
+
+.icon-left{
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    background: transparent url(https://crmplatform.misacdn.net/app/assets/Images/icon/icon_collection.svg) no-repeat -16px -32px;
+}

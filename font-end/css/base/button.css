@@ -1,0 +1,54 @@
+.btn {
+    background-color: #4262f0;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    border-radius: 4px;
+    margin: 0 10px 0 8px;
+    padding: 5px 16px;
+    border: none;
+    cursor: pointer ;
+}
+
+
+
+.btn-with-icon .btn-content:hover,.btn-with-icon .btn-click:hover{
+    opacity: 0.7;
+} 
+
+.btn:hover{
+    opacity: 0.6;
+}
+
+.btn.btn-with-icon{
+    padding: 0;
+}
+
+.btn-content {
+    height: 100%;
+    padding: 5px 16px 5px 8px;
+    display: flex;
+    align-items: center;
+}
+
+.btn-content-icon {
+    background: url(../../assets/icon/icon_collection.svg) no-repeat -240px -128px;
+    width: 16px;
+    height: 16px;
+}
+
+.btn-content-text {
+    margin-left: 8px;
+    font-weight: 500;
+}
+
+.btn-click {
+    height: 100%;
+    width: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-left: 1px solid #fff;
+}
+

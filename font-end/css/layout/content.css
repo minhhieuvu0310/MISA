@@ -1,0 +1,32 @@
+.content {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  position: relative;
+  display: flex;
+}
+
+.content-left {
+  width: 240px;
+  height: 100%;
+  border-right: 1px solid #bbbbbb;
+  position: relative;
+}
+
+.content-center {
+  flex: 1;
+  position: relative;
+}
+
+.content-right {
+  width: 360px;
+  height: 100%;
+  position: relative;
+}
+
+.icon-edit.icon-row-edit {
+  display: none;
+}
+
+.table tbody tr:hover .icon-row-edit {
+  display: block;
+}
