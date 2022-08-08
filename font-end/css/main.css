@@ -6,6 +6,7 @@
 @import url(../css/layout/footer.css);
 @import url(../css/layout/popup_update.css);
 @import url(../css/layout/siderbar-right.css);
+@import url(../css/layout/from__insert.css);
 
 @import url(../css/base/icon.css);
 @import url(../css/base/button.css);
@@ -39,6 +40,7 @@
 .title{
     font-family: MISA Roboto Eegular;
     font-size: 18px;
+    font-weight: 600;
 }
 
 *{

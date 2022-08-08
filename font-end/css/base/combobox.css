@@ -25,6 +25,7 @@
 .combobox__input input {
     padding: 0 0 0 16px ;
     height: 100%;
+    width: 100%;
     outline: none;
     border: none;
 }

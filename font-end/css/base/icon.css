@@ -160,3 +160,10 @@
     display: inline-block;
     background: transparent url(https://crmplatform.misacdn.net/app/assets/Images/icon/icon_collection.svg) no-repeat -16px -32px;
 }
+
+.icon-user-4-8{
+    display: inline-block;
+    width: 48px;
+    height: 48px;
+    background: transparent url(https://crmplatform.misacdn.net/app/assets/Images/icon/icon_collection.svg) no-repeat -240px -848px;
+}
